@@ -1,1 +1,39 @@
-/* #0d0c22 */
+:root{
+    --background: #131119;
+    --primary: #8872E7;
+    --secondary: #B9971E;
+    --contrast: #1F1C29;
+}
+
+body{
+    margin: 0;
+    background-color: var(--background);
+    color:white;
+}
+
+.header{
+    padding: 3em;
+}
+
+
+.header img {
+    width: 15em;
+}
+
+.hero{
+    padding: 0 3em;
+    display: flex;
+}
+
+.hero-title h1{
+    font-size: 4em;
+}
+
+.hero img{
+    width: 60%;
+}
+
+.hero-title p{
+    font-size: 1.3em;
+    color: var(--secondary)
+}
