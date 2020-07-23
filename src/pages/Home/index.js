@@ -12,7 +12,7 @@ function Home(){
                 <div className="hero-title">
                     <h1>Desenvolva soluções incríveis</h1>
                     <p>Uma plataforma de aprendizado para alcançar seu próximo nível como programador</p>
-                    <button>Quero participar</button>
+                    <button>Quero me cadastrar</button>
                 </div>
                 <img src={computer} alt="Computer and coffe" />
             </div>
@@ -71,9 +71,9 @@ function Home(){
                         </div>
                         <button>Iniciar</button>
                     </div>
-                    <div className="price-card">
+                    <div className="price-card recommended">
                         <h1>PRO</h1>
-                        <h2>R$200,00 <span>mês</span></h2>
+                        <h2>R$20,00 <span>mês</span></h2>
                         <div className="features">
                             <p>Funcionalidades do Starter</p>
                             <p>Acesso à cursos premium</p>
@@ -93,7 +93,7 @@ function Home(){
                 </div>
             </div>
             <footer>
-                <h1>Aprender</h1>
+                <img  src={logo} alt="Logo do Aprender" />
             </footer>
         </div>
     );
