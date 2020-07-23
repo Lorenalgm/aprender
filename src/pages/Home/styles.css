@@ -67,26 +67,54 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    margin-top: 7em;
+    margin-bottom: 5em;
 }
 
 .course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 1em;
     background-color: var(--contrast);
     height: 15em;
     width: 20em;
     text-align: center;
+    cursor: pointer;
+}
+
+.icon{
+    width: 3em;
+    height: 3em;
+    color: var(--secondary);
 }
 
 .testimonials{
     display: flex;
     flex-direction: column;
-    margin: 2em
+    margin: 2em;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-card{
+    margin-bottom: 4em;
+}
+
+.testimonial-card img{
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .pillars{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5em;
 }
 
 .pillar{
@@ -168,8 +196,22 @@ footer{
 }
 
 @media only screen and (min-width: 600px) {
+    .header{
+        margin: 2em 5em;
+        justify-content: start;
+    }
+
+    .hero img{
+        width: 50%;
+    }
     .hero{
+        margin: 0 5em;
         flex-direction: row;
+        text-align: left;
+    }
+
+    .hero p{
+        margin: 2em 0;
     }
 
     .courses{
@@ -193,6 +235,8 @@ footer{
 
     .prices-container{
         display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
 }

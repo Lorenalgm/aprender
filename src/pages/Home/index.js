@@ -2,6 +2,10 @@ import React from 'react';
 import './styles.css';
 import logo from '../assets/logo.png';
 import computer from '../assets/computer.png';
+import client2 from '../assets/guy.jpg';
+import client1 from '../assets/girl.jpg';
+import { FaCode, FaCss3, FaHtml5 } from 'react-icons/fa';
+
 function Home(){
     return (
         <div className="container">
@@ -11,37 +15,42 @@ function Home(){
             <div className="hero">
                 <div className="hero-title">
                     <h1>Desenvolva soluções incríveis</h1>
-                    <p>Uma plataforma de aprendizado para alcançar seu próximo nível como programador</p>
+                    <p>Uma plataforma de aprendizado para alcançar<br></br> seu próximo nível como programador</p>
                     <button>Quero me cadastrar</button>
                 </div>
                 <img src={computer} alt="Computer and coffe" />
             </div>
             <div className="courses">
                 <div className="course">
+                    <FaCode className="icon" />
                     <h3>Lógica de programação</h3>   
                 </div>
                 <div className="course">
+                    <FaHtml5 className="icon" />
                     <h3>Introdução à HTML</h3>   
                 </div>
                 <div className="course">
+                    <FaCss3 className="icon" />
                     <h3>Introdução à CSS</h3>   
                 </div>
             </div>
             <div className="testimonials">
                 <div className="testimonial-card">
+                    <img src={client1} alt="Client from Aprender" />
                     <div className="message">
                         <h3>Fernanda Pimentel</h3>
-                        <p>A plataforma é incrível e a 
+                        <p>"A plataforma é incrível e a 
                             metodologia dos cursos são de alcance para quem está começando ou 
-                            quem já está avançado em alguma tecnologia.</p>
+                            quem já está avançado em alguma tecnologia."</p>
                     </div>
                 </div>
                 <div className="testimonial-card">
+                    <img src={client2} alt="Client from Aprender" />
                     <div className="testimonial-message">
                         <h3>Pedro Ferreira</h3>
-                        <p>Com muitos exercícios práticos e a ajuda da 
+                        <p>"Com muitos exercícios práticos e a ajuda da 
                         comunidade do Aprender, consegui passar em um processo 
-                        seletivo</p>
+                        seletivo"</p>
                     </div>
                 </div>
             </div>
