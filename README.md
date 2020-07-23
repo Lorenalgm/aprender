@@ -6,7 +6,6 @@
      Plataforma de aprendizado para alcançar seu próximo nível como programador(a)
        <br />
     <br />
-     <a href="https://gitlab.com/daniel259/cosmo-test/">Desafio</a> 
   </p> 
 
 ## :checkered_flag: Índice
